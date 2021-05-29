@@ -21,7 +21,7 @@ Contact me @
 
 ## Project Description
 
-My project is on Gesture Detection in Video Dataset annotated by experts. The first task will be to first prepare the dataset for use in gesture detection. This refined dataset will then be used for analtsis and detection using Deep Learning methods. Primarily, my focus will be on utilising the power of Pose Detection models such as OpenPose and then utilising the landmark positions to predict features such as handedness, movement type, orientation etc. (as annotated). Finally, the output will be hosted on CWRU HPC in a pipeline. 
+My project is on Gesture Detection in Video Dataset annotated by experts. The first task will be to first prepare the dataset for use in gesture detection. This refined dataset will then be used for analtsis and detection using Deep Learning methods. Primarily, my focus will be on utilising the power of Pose Detection models such as OpenPose and then utilising the landmark positions to predict features such as handedness, movement type, orientation etc. (as annotated). Finally, the code will be hosted on CWRU HPC in a pipeline. 
 
 Check proposal @ GSoC website: [Click Here](https://summerofcode.withgoogle.com/projects/#5781190964936704)
 
