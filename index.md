@@ -54,7 +54,7 @@ One of my mentors, Elizabeth Mahoney conducted an introductory meeting about the
 
 ### Week 1 (06 - 12 June, 2021)
 
-On Tuesday, my mentors conducted another session updating me with my week's work. The documentation of the annotations and the videos were provided to me. Also, I will review one of the documentations ([Link Here](https://frankier.github.io/skelshop/)) on a similar work done previously. Finally, the singularity containers for previous projects were also shared. My work for the week will be as follows (subject to changes):
+On Monday, my mentors conducted another session updating me with my week's work. The documentation of the annotations and the videos were provided to me. Also, I will review one of the documentations ([Link Here](https://frankier.github.io/skelshop/)) on a similar work done previously. Finally, the singularity containers for previous projects were also shared. My work for the week will be as follows (subject to changes):
 1. Go through the annotations and videos
 2. Read the GitHub documentation (Fankie's SkelShop)
 3. Understand the working of singularity containers and check out the provided containers
