@@ -8,9 +8,12 @@ This blog is maintained by Swadesh Jana about the updates on the progress of GSo
   - [Introduction](#introduction)
   - [Project Description](#project-description)
   - [Weekly Updates](#weekly-updates)
-  - [Coomunity Bonding Period](#coomunity-bonding-period)
+  - [Community Bonding Period](#community-bonding-period)
     - [Week 1 (16 - 22 May, 2021)](#week-1-16---22-may-2021)
     - [Week 2 (23 - 29 May, 2021)](#week-2-23---29-may-2021)
+    - [Week 3 (30 May - 05 June, 2021)](#week-3-30-may---05-june-2021)
+  - [Coding Period](#coding-period)
+    - [Week 1 (06 - 12 June, 2021)](#week-1-06---12-june-2021)
 
 ## Introduction
 
@@ -31,7 +34,7 @@ Mentors: [Peter Uhrig](https://www.angam.phil.fau.de/staff/uhrig/), [Elizabeth M
 
 Here I will be writing about how I proceed with the tasks every week starting from my first Community Bonding Period to the final evaluations.
 
-## Coomunity Bonding Period
+## Community Bonding Period
 
 ### Week 1 (16 - 22 May, 2021)
 
@@ -40,4 +43,20 @@ I received the proposal acceptance from Red Hen Lab on May 17. Next, I contacted
 ^Note: *Do not try to **sudo** on the cluster without priviledged access :)* 
 
 ### Week 2 (23 - 29 May, 2021)
+
 Due to my semester exams, I couldn't proceed much with the work. However, discussed with my mentor about the project so that we are on the same page. Went through certain documentations on using the HPC Computing service and the Elan software for annotations (and extracting them). The first meet of the Community was held on May 28 and we introduced ourselves and got to know Red Hen Lab. Really excited to start working with Red Hen Lab!
+
+### Week 3 (30 May - 05 June, 2021)
+
+One of my mentors, Elizabeth Mahoney conducted an introductory meeting about the dataset and tried to answer my questions on the dataset. Later in the week, I set up my Gallina directory required for storing all large files. I tried playing with the HPC OnDemand web portal. It's the second (and last) week of my exams.
+
+## Coding Period
+
+### Week 1 (06 - 12 June, 2021)
+
+On Tuesday, my mentors conducted another session updating me with my week's work. The documentation of the annotations and the videos were provided to me. Also, I will review one of the documentations ([Link Here](https://frankier.github.io/skelshop/)) on a similar work done previously. Finally, the singularity containers for previous projects were also shared. My work for the week will be as follows (subject to changes):
+1. Go through the annotations and videos
+2. Read the GitHub documentation (Fankie's SkelShop)
+3. Understand the working of singularity containers and check out the provided containers
+
+Seems a busy week ahead, but it will be exciting !!!
