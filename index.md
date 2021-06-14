@@ -14,6 +14,7 @@ This blog is maintained by Swadesh Jana about the updates on the progress of GSo
     - [Week 3 (30 May - 05 June, 2021)](#week-3-30-may---05-june-2021)
   - [Coding Period](#coding-period)
     - [Week 1 (06 - 12 June, 2021)](#week-1-06---12-june-2021)
+    - [Week 2 (13 - 19 June, 2021)](#week-2-13---19-june-2021)
 
 ## Introduction
 
@@ -54,9 +55,29 @@ One of my mentors, Elizabeth Mahoney conducted an introductory meeting about the
 
 ### Week 1 (06 - 12 June, 2021)
 
-On Monday, my mentors conducted another session updating me with my week's work. The documentation of the annotations and the videos were provided to me. Also, I will review one of the documentations ([Link Here](https://frankier.github.io/skelshop/)) on a similar work done previously. Finally, the singularity containers for previous projects were also shared. My work for the week will be as follows (subject to changes):
+On Monday, my mentors conducted another session updating me with my week's work. The documentation of the annotations and the videos were provided to me. Also, I will study one of the documentations ([Link Here](https://frankier.github.io/skelshop/)) along with the singularity containers on Fankie's SkelShop. My work for the week will be as follows (subject to changes):
 1. Rebuild the video dataset from YouTube based on Elizabeth Mahoney's instructions
-2. Read the GitHub documentation (Fankie's SkelShop)
+2. Read the GitHub documentation 
 3. Understand the working of singularity containers and check out the provided containers
 
 Seems a busy week ahead, but it will be exciting !!!
+
+On Tuesday, I attended Mahnaz Parian-Scherb's PhD defence meeting to get to know about her work on gestures using various Image Processing techniques and Deep Learning. I learned a lot and look forward to a private meeting with my mentors to get a more detailed understanding of OpenPose and the methods she used.
+
+The dataset consisting of Elen DeGeneres shows' videos and gesture annotations are available through Google Drive. However, all the videos are not available in the public on any online platform. Out of the 30 videos in the dataset, 19 are present online (in Youtube, Dailymotion), 11 are not available out of which 3 are private links while 8 are not found.
+
+Also, I checked out the singularity containers and have some idea of how they work.
+
+On Saturday, I had a chat with Frankie, one of the mentors at Red Hen Lab about his previous work (SkelShop). Main points of the conversation are:
+1. He shared some recommendations, such as using Docker Files due to its larger community. Get them [here](https://frankie.robertson.name/research/effective-cluster-computing/)
+2. He used make files, specifically SnakeMake to automate the pipelines. Study them [here](http://www.hpc-carpentry.org/hpc-python/)
+3. OpenPose was used for obtaining landmark positions and he explained the pipeline and also about how OpenPose works in a nutshell. The GitHub [Repo](https://github.com/frankier/skelshop/) will be important to study.
+4. Changes in shots (instantaneous change of angle, for example) was an issue in his project. Shot segmentation maybe required.
+
+### Week 2 (13 - 19 June, 2021)
+
+I updated my mentor Dr. Uhrig about my work uptil Sunday. My further work will be as follows:
+1. Work on the dataset. Use OpenPose to get landmarks on the videos and utilise them to get certain basic predictions such as simple hand movement detection using LSTMs and/or CNNs.
+2. Study SnakeMake, Docker (also, Singularity) and SkelShop's code throughly.
+3. Write a mail to access Red Hen's Open Dataset (to get the actual high resolution videos).
+4. And most importantly, **Enjoy** my work :)
