@@ -7,6 +7,7 @@ This blog is maintained by Swadesh Jana about the updates on the progress of GSo
   - [Table of Contents:](#table-of-contents)
   - [Introduction](#introduction)
   - [Project Description](#project-description)
+  - [Useful Links:](#useful-links)
   - [Weekly Updates](#weekly-updates)
   - [Community Bonding Period](#community-bonding-period)
     - [Week 1 (16 - 22 May, 2021)](#week-1-16---22-may-2021)
@@ -31,6 +32,10 @@ Check proposal @ GSoC website: [Click Here](https://summerofcode.withgoogle.com/
 
 Mentors: [Peter Uhrig](https://www.angam.phil.fau.de/staff/uhrig/), [Elizabeth Mahoney](https://www.linkedin.com/in/elizabethmahoney4/)
 
+## Useful Links:
+- HPC Information and Commands: Click [Here](HPC.md)
+- Singularity Information and Commands: Click [Here](Singularity.md)
+
 ## Weekly Updates
 
 Here I will be writing about how I proceed with the tasks every week starting from my first Community Bonding Period to the final evaluations.
@@ -39,9 +44,7 @@ Here I will be writing about how I proceed with the tasks every week starting fr
 
 ### Week 1 (16 - 22 May, 2021)
 
-I received the proposal acceptance from Red Hen Lab on May 17. Next, I contacted my mentors Dr. Peter Uhrig and Elizabeth Mahoney. Also, after the initial setup of CWRU emails, I also tried accessing the HPC computing service that we were allowed to use for the project^. Finally, I gave a brief of my project to my mentors and discussed on the same.
-
-^Note: *Do not try to **sudo** on the cluster without priviledged access :)* 
+I received the proposal acceptance from Red Hen Lab on May 17. Next, I contacted my mentors Dr. Peter Uhrig and Elizabeth Mahoney. Also, after the initial setup of CWRU emails, I also tried accessing the HPC computing service that we were allowed to use for the project. Finally, I gave a brief of my project to my mentors and discussed on the same.
 
 ### Week 2 (23 - 29 May, 2021)
 
