@@ -38,7 +38,7 @@ $ module avail
 ```
 $ module load cuda                          # Default Cuda version loaded
 $ module load cuda/10.1                     # Specific Cuda version loaded
-$ srun -p gpu --gpus 1 --mem 4000 --cpus-per-gpu 2
+$ srun -p gpu --gpus 1 --mem 4000 --cpus-per-gpu 2 --pty bash
 ```
 
 ### Access to Tensorflow
