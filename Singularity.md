@@ -44,7 +44,7 @@ It spawns a new shell inside the container and provides interaction with the con
 $ singularity shell /path/to/container.sif          # simply go to the shell
 $ singularity shell --nv /path/to/container.sif     # shell with access to GPU
 ```
-This will load the shell, however the directory will not change to the HOME folder. It will remain in the same directory as it was previously. Go to $HOME using ```cd /``` and you will find certain new directrories along with the directory named ```.singularity.d```, which contains all the singularity files such as ```./actions/shell, ./actions/run``` (inside the above directory) which provide the script for corresponding actions.
+This will load the shell, however the directory will not change to the HOME folder. It will remain in the same directory as it was previously. Go to $HOME using ```cd /``` and you will find certain new files/directrories such as ```singularity``` script file along with the directory named ```.singularity.d```, which contains all the singularity files such as ```./actions/shell, ./actions/run``` (inside the above directory) which provide the dafault script for corresponding actions.
 
 _Note: --nv provides container shell acess to GPU and can be used in any singularity command._
 
