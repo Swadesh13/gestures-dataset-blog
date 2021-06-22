@@ -12,7 +12,6 @@ Quick Start [here](https://sites.google.com/a/case.edu/hpcc/hpc-cluster/quick-st
       - [Available Modules](#available-modules)
       - [Access to GPU](#access-to-gpu)
     - [Access to Tensorflow](#access-to-tensorflow)
-    - [](#)
 
 ### Accessing the HPC
 
@@ -27,6 +26,8 @@ There are majorly 3 ways of accessing the HPC provided at Red Hen Lab:
 ### Useful Shell Commands
 
 Most of the commands are similar to any Linux bash commands. I will list a few important/required during the work.
+
+_Note: Root access is denied in the HPC_
 
 #### Available Modules
 ```
@@ -51,5 +52,3 @@ $ python
 >>> tf.__version__
 2.1.0                                       # As per June 2021
 ```
-
-### 
