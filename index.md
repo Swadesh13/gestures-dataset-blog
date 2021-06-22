@@ -84,4 +84,4 @@ I updated my mentor Dr. Uhrig about my work uptil Sunday. My further work will b
 2. Study SnakeMake, Docker (also, Singularity) and SkelShop's code throughly.
 3. Write a mail to access Red Hen's Open Dataset (to get the actual high resolution videos).
 
-And most importantly, **Enjoy** my work :)
+Throughout the week, I mostly invested my time in understanding the Singularity containers and how they work and are built. I documented what I learnt [here](#useful-links). Also, I successfully built the OpenPose module (after cloning it from GitHub) and ran the videos. However, I have been unable to directly run them from the Singularity container as the first stage of the pipeline. I will do that next week.
