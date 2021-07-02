@@ -2,6 +2,8 @@
 
 This blog is maintained by Swadesh Jana about the updates on the progress of GSoC 2021 project with Red Hen Lab.
 
+For the GitHub repo of the work on this project, check here: [https://github.com/Swadesh13/redhen-gesture](https://github.com/Swadesh13/redhen-gesture)
+
 ## Table of Contents:
 - [Gesture Dataset Analysis](#gesture-dataset-analysis)
   - [Table of Contents:](#table-of-contents)
@@ -16,6 +18,7 @@ This blog is maintained by Swadesh Jana about the updates on the progress of GSo
   - [Coding Period](#coding-period)
     - [Week 1 (06 - 12 June, 2021)](#week-1-06---12-june-2021)
     - [Week 2 (13 - 19 June, 2021)](#week-2-13---19-june-2021)
+    - [Week 3 (20 - 26 June, 2021)](#week-3-20---26-june-2021)
 
 ## Introduction
 
@@ -85,3 +88,9 @@ I updated my mentor Dr. Uhrig about my work uptil Sunday. My further work will b
 3. Write a mail to access Red Hen's Open Dataset (to get the actual high resolution videos).
 
 Throughout the week, I mostly invested my time in understanding the Singularity containers and how they work and are built. I documented what I learnt [here](#useful-links). Also, I successfully built the OpenPose module (after cloning it from GitHub) and ran the videos. However, I have been unable to directly run them from the Singularity container as the first stage of the pipeline. I will do that next week.
+
+### Week 3 (20 - 26 June, 2021)
+
+I continued my work on using OpenPose in Singularity containers. I would like to point out that the `--sandbox` option and build an OpenPose directory is important because it allows to change or add files as required and then one can build from the directory. Also, I updated my documentation on that.
+
+Now, I have a working OpenPose container and next week, I will get the OpenPose output on the provided dataset and use the landmarks to analyse and possibly train models.
