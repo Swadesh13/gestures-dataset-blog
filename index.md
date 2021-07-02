@@ -93,4 +93,7 @@ Throughout the week, I mostly invested my time in understanding the Singularity 
 
 I continued my work on using OpenPose in Singularity containers. I would like to point out that the `--sandbox` option and build an OpenPose directory is important because it allows to change or add files as required and then one can build from the directory. Also, I updated my documentation on that.
 
+I am using Frankierr's OpenPose Docker Image file `frankierr/openpose_containers:focal_nvcaffe` for GPU support on the HPC. Also, note that the `/.openpose_env` file may not have execution access for all users. So, build the sandbox ([Check Here](/Singualrity.md)) and then using `sudo` change the execution permissions of the file. Finally, build the image file from the sandbox.
+
 Now, I have a working OpenPose container and next week, I will get the OpenPose output on the provided dataset and use the landmarks to analyse and possibly train models.
+
