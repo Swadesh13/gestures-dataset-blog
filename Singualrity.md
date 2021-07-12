@@ -102,3 +102,8 @@ Another important note: Requires root access and cannot be performed on the HPC.
 * Singularity files and sandboxes can be very large, be sure to have atleast 10GB of secondary memory space available.
 * By default, singularity loads a sh shell and not bash. Hence, commands such as `source` may not work. Use `.` instead of `source`. Eg: `. /env` and not `source /env`.
 * You can use [Sylabs](https://cloud.sylabs.io/) to upload your images and also build images remotely from definition files, but you can't have the sandbox featue or change file permissions.
+* For modules not already on the Cluster / Container (by default), use in the .def file (eg. for numpy and pandas): 
+  ```
+  %post
+  pip install numpy==<version> pandas==<version>
+  ```

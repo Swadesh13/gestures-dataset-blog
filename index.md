@@ -19,6 +19,8 @@ For the GitHub repo of the work on this project, check here: [https://github.com
     - [Week 1 (06 - 12 June, 2021)](#week-1-06---12-june-2021)
     - [Week 2 (13 - 19 June, 2021)](#week-2-13---19-june-2021)
     - [Week 3 (20 - 26 June, 2021)](#week-3-20---26-june-2021)
+    - [Week 4 (27 June - 3 July, 2021)](#week-4-27-june---3-july-2021)
+    - [Week 5 (4 - 10 July, 2021 )](#week-5-4---10-july-2021-)
 
 ## Introduction
 
@@ -97,3 +99,19 @@ I am using Frankierr's OpenPose Docker Image file `frankierr/openpose_containers
 
 Now, I have a working OpenPose container and next week, I will get the OpenPose output on the provided dataset and use the landmarks to analyse and possibly train models.
 
+### Week 4 (27 June - 3 July, 2021)
+
+In my work continuing with using OpenPose containers, I made a new file named [workflow.py](https://github.com/Swadesh13/redhen-gesture/blob/main/src/code/workflow.py) which will handle all the workflow stuff. I could have used SnakeMake (as suggested by Frankie), but a simple python module will suffice for now. It handles the arguments such path to input and output directories, runs OpenPose by creating a thread using the `subprocess` module. The week was spent in creating the Container, adding the module to the sandbox (and other necessary changes briefly stated in the README of my code [repo](https://github.com/Swadesh13/redhen-gesture)) and creating a smooth workflow. Then, I got the OpenPose output from all the 30 videos to further create a training data for the deep learning model.
+
+### Week 5 (4 - 10 July, 2021 )
+
+Lots of updates in the code. I developed a simple strategy for using the OpenPose keypoints. It is shortly described as follows:
+1. 25 Body positions are obtained from the OpenPose module. They can be found in the OpesPose docs [here](https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/02_output.md). The values are in the form of a list of (x, y, confidence).
+2. OpenPose doesn't identify persons between frames, so I used a simple methodology of identifying persons across frames. I used a simple ratio of the average dimension of the frame as a threshold. If neck positions across consecutive frames are within the threshold then they are of same person other wise different.
+3. I also put a threshold to the number of persons. Frames with more than the threshold number of persons are rejected.
+4. For consecutive frames which focus on the same person(s) or same angle, the frames are arranged so that they form a time series data. I aggregate consecutive n (say, n = 3) frames as a window on the keypoints for the model to predict if there is a gesture on the 3rd frame.
+5. The data is of the shape, row = Keypoints (of neck, shoulder, elbow, wrist) x and y values, col = max persons in a frame (dummy value of -1 for frames with less than max persons) and depth = window size.
+
+The data is trained on a simple Tensorflow Deep Learning model made with `ConvLSTM2D` and `Conv3D` layers and finally a `Dense` layer with `sigmoid` activation as the output.
+
+Over the week, I wrote all the code and then trained on a sample video to check if the method is working. As a starting baseline, it provides an accuracy and precision in the range of about 70%. I also used the sample output to mark the video where the model had predicted hand gestures. In the following week, I plan to refine my model and also train on all the 30 videos.
