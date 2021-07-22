@@ -21,6 +21,7 @@ For the GitHub repo of the work on this project, check here: [https://github.com
     - [Week 3 (20 - 26 June, 2021)](#week-3-20---26-june-2021)
     - [Week 4 (27 June - 3 July, 2021)](#week-4-27-june---3-july-2021)
     - [Week 5 (4 - 10 July, 2021 )](#week-5-4---10-july-2021-)
+    - [Week 6 (11 - 17 July, 2021 )](#week-6-11---17-july-2021-)
 
 ## Introduction
 
@@ -115,3 +116,8 @@ Lots of updates in the code. I developed a simple strategy for using the OpenPos
 The data is trained on a simple Tensorflow Deep Learning model made with `ConvLSTM2D` and `Conv3D` layers and finally a `Dense` layer with `sigmoid` activation as the output.
 
 Over the week, I wrote all the code and then trained on a sample video to check if the method is working. As a starting baseline, it provides an accuracy and precision in the range of about 70%. I also used the sample output to mark the video where the model had predicted hand gestures. In the following week, I plan to refine my model and also train on all the 30 videos.
+
+### Week 6 (11 - 17 July, 2021 )
+
+Model optimization begins. With the same data, I changed the layers and certain hyperparameters such as layer arrangement, and number of layers. There is a lot of overfitting. The validation accuracy does't change much from 70-71%. I also wrote code to show in which areas the model predicts that there is a gesture. Currently, searching for some previous works on this area to gain more insights.
+

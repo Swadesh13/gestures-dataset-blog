@@ -105,5 +105,5 @@ Another important note: Requires root access and cannot be performed on the HPC.
 * For modules not already on the Cluster / Container (by default), use in the .def file (eg. for numpy and pandas): 
   ```
   %post
-  pip install numpy==<version> pandas==<version>
+  pip3 install numpy==<version> pandas==<version>
   ```
