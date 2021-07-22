@@ -22,6 +22,7 @@ For the GitHub repo of the work on this project, check here: [https://github.com
     - [Week 4 (27 June - 3 July, 2021)](#week-4-27-june---3-july-2021)
     - [Week 5 (4 - 10 July, 2021 )](#week-5-4---10-july-2021-)
     - [Week 6 (11 - 17 July, 2021 )](#week-6-11---17-july-2021-)
+    - [Week 7 (18 - 24 July, 2021 )](#week-7-18---24-july-2021-)
 
 ## Introduction
 
@@ -121,3 +122,6 @@ Over the week, I wrote all the code and then trained on a sample video to check 
 
 Model optimization begins. With the same data, I changed the layers and certain hyperparameters such as layer arrangement, and number of layers. There is a lot of overfitting. The validation accuracy does't change much from 70-71%. I also wrote code to show in which areas the model predicts that there is a gesture. Currently, searching for some previous works on this area to gain more insights.
 
+### Week 7 (18 - 24 July, 2021 )
+
+`Conv3D` layers in a VGG-like architecture seemed to give the best results at accuracy and precision of 72%, but there is a large overfitting.
