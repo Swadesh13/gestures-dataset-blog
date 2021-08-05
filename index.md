@@ -23,6 +23,8 @@ For the GitHub repo of the work on this project, check here: [https://github.com
     - [Week 5 (4 - 10 July, 2021 )](#week-5-4---10-july-2021-)
     - [Week 6 (11 - 17 July, 2021 )](#week-6-11---17-july-2021-)
     - [Week 7 (18 - 24 July, 2021 )](#week-7-18---24-july-2021-)
+    - [Week 8 (25 - 31 July, 2021)](#week-8-25---31-july-2021)
+    - [Week 9 (01 - 07 August, 2021)](#week-9-01---07-august-2021)
 
 ## Introduction
 
@@ -124,4 +126,11 @@ Model optimization begins. With the same data, I changed the layers and certain 
 
 ### Week 7 (18 - 24 July, 2021 )
 
-`Conv3D` layers in a VGG-like architecture seemed to give the best results at accuracy and precision of 72%, but there is a large overfitting.
+`Conv3D` layers in a VGG-like architecture seemed to give the best results at accuracy and precision of 72%, but there is a large overfitting. Over the week, I continued checking with various combinations. I also got to know about Optical Flow and started studying on its applications in gesture recognition. However, as Mahnaz pointed out it will detect every small change in the background as well as detect zoom on the data. So, I had to discard the idea.
+
+### Week 8 (25 - 31 July, 2021)
+
+After certain changes in parameters and number of layers, the precision increased to 74%. Since it is 3D data, direct LSTM layers are not compatible and even `ConvLSTM2D` did not work very well on the data (even with bidirectional). I also checked by subtracting the mean but that did not help. Also, I built the Singularity container with the model deployed in it and detections shown so that the container can be used in the future.
+
+### Week 9 (01 - 07 August, 2021)
+The final 2 weeks of GSoC begins. Even though my mentor has asked me to start wrapping and tidying up everything and prepare to showcase the projects, I will try one time to develop some kind of attention mechanism based model. After that I need to finish up with the code and Container for final review. The model will be simple. 2 consecutive frames will be input to feature extractors and then the features can be concatenated to pass through LSTMs for time dependent feature detection such as gestures. Will update with the results if successful.
