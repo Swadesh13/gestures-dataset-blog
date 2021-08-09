@@ -134,3 +134,7 @@ After certain changes in parameters and number of layers, the precision increase
 
 ### Week 9 (01 - 07 August, 2021)
 The final 2 weeks of GSoC begins. Even though my mentor has asked me to start wrapping and tidying up everything and prepare to showcase the projects, I will try one time to develop some kind of attention mechanism based model. After that I need to finish up with the code and Container for final review. The model will be simple. 2 consecutive frames will be input to feature extractors and then the features can be concatenated to pass through LSTMs for time dependent feature detection such as gestures. Will update with the results if successful.
+
+The featue extractor-LSTM model was unsuccessful, it seems there is too much data (or noise) to detect a hand movement somewhere. Possibly, some more powerful architecture (encoder-decoder or similar) can be used with the image data. I might try that after cleaning up the code and my blog and all that ends. 
+
+Also, I cleaned up the code over the weekend adding basic training and detection features to the container.
