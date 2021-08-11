@@ -4,12 +4,19 @@ This blog is maintained by Swadesh Jana about the updates on the progress of GSo
 
 For the GitHub repo of the work on this project, check here: [https://github.com/Swadesh13/redhen-gesture](https://github.com/Swadesh13/redhen-gesture)
 
+## Useful Links:
+Some useful links on information that I had to learn and on how to use my container:
+- How to use my container: Click [Here](how-to-use.md)
+- HPC Information and Commands: Click [Here](HPC.md)
+- Singularity Information and Commands: Click [Here](Singularity.md)
+
+
 ## Table of Contents:
 - [Gesture Dataset Analysis](#gesture-dataset-analysis)
+  - [Useful Links:](#useful-links)
   - [Table of Contents:](#table-of-contents)
   - [Introduction](#introduction)
   - [Project Description](#project-description)
-  - [Useful Links:](#useful-links)
   - [Weekly Updates](#weekly-updates)
   - [Community Bonding Period](#community-bonding-period)
     - [Week 1 (16 - 22 May, 2021)](#week-1-16---22-may-2021)
@@ -40,11 +47,6 @@ My project is on Gesture Detection in Video Dataset annotated by experts. The fi
 Check proposal @ GSoC website: [Click Here](https://summerofcode.withgoogle.com/projects/#5781190964936704)
 
 Mentors: [Peter Uhrig](https://www.angam.phil.fau.de/staff/uhrig/), [Elizabeth Mahoney](https://www.linkedin.com/in/elizabethmahoney4/)
-
-## Useful Links:
-- How to use my container: Click [Here](how-to-use.md)
-- HPC Information and Commands: Click [Here](HPC.md)
-- Singularity Information and Commands: Click [Here](Singularity.md)
 
 ## Weekly Updates
 
