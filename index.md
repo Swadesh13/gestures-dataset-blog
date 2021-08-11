@@ -42,6 +42,7 @@ Check proposal @ GSoC website: [Click Here](https://summerofcode.withgoogle.com/
 Mentors: [Peter Uhrig](https://www.angam.phil.fau.de/staff/uhrig/), [Elizabeth Mahoney](https://www.linkedin.com/in/elizabethmahoney4/)
 
 ## Useful Links:
+- How to use my container: Click [Here](how-to-use.md)
 - HPC Information and Commands: Click [Here](HPC.md)
 - Singularity Information and Commands: Click [Here](Singularity.md)
 
