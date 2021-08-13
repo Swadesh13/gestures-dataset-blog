@@ -4,7 +4,7 @@ This blog is maintained by Swadesh Jana about the updates on the progress of GSo
 
 For the GitHub repo of the work on this project, check here: [https://github.com/Swadesh13/redhen-gesture](https://github.com/Swadesh13/redhen-gesture)
 
-## Useful Links:
+## Useful information while beginning to work:
 Some useful links on information that I had to learn and on how to use my container:
 - How to use my container: Click [Here](how-to-use.md)
 - HPC Information and Commands: Click [Here](HPC.md)
@@ -13,7 +13,7 @@ Some useful links on information that I had to learn and on how to use my contai
 
 ## Table of Contents:
 - [Gesture Dataset Analysis](#gesture-dataset-analysis)
-  - [Useful Links:](#useful-links)
+  - [Useful information while beginning to work:](#useful-information-while-beginning-to-work)
   - [Table of Contents:](#table-of-contents)
   - [Introduction](#introduction)
   - [Project Description](#project-description)
@@ -32,6 +32,7 @@ Some useful links on information that I had to learn and on how to use my contai
     - [Week 7 (18 - 24 July, 2021 )](#week-7-18---24-july-2021-)
     - [Week 8 (25 - 31 July, 2021)](#week-8-25---31-july-2021)
     - [Week 9 (01 - 07 August, 2021)](#week-9-01---07-august-2021)
+    - [Week 10 (08 - 14 August, 2021)](#week-10-08---14-august-2021)
 
 ## Introduction
 
@@ -141,3 +142,7 @@ The final 2 weeks of GSoC begins. Even though my mentor has asked me to start wr
 The featue extractor-LSTM model was unsuccessful, it seems there is too much data (or noise) to detect a hand movement somewhere. Possibly, some more powerful architecture (encoder-decoder or similar) can be used with the image data. I might try that after cleaning up the code and my blog and all that ends. 
 
 Also, I cleaned up the code over the weekend adding basic training and detection features to the container.
+
+### Week 10 (08 - 14 August, 2021)
+
+There were some debugging I had to do on the Container. Also, I wrote the pages[tl;dr](tldr.md) and [How to Use](how-to-use.md). All information on my work can be found there. Finally, I am writing a page in the techne public site to publish the dataset on Red Hen Lab.
