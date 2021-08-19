@@ -6,6 +6,7 @@ For the GitHub repo of the work on this project, check here: [https://github.com
 
 ## Useful information while beginning to work:
 Some useful links on information that I had to learn and on how to use my container:
+- A short TL;DR: Click [Here](tldr.md)
 - How to use my container: Click [Here](how-to-use.md)
 - HPC Information and Commands: Click [Here](HPC.md)
 - Singularity Information and Commands: Click [Here](Singularity.md)
@@ -32,7 +33,7 @@ Some useful links on information that I had to learn and on how to use my contai
     - [Week 7 (18 - 24 July, 2021 )](#week-7-18---24-july-2021-)
     - [Week 8 (25 - 31 July, 2021)](#week-8-25---31-july-2021)
     - [Week 9 (01 - 07 August, 2021)](#week-9-01---07-august-2021)
-    - [Week 10 (08 - 14 August, 2021)](#week-10-08---14-august-2021)
+    - [Week 10 + 2 days (08 - 16 August, 2021)](#week-10--2-days-08---16-august-2021)
 
 ## Introduction
 
@@ -143,6 +144,6 @@ The featue extractor-LSTM model was unsuccessful, it seems there is too much dat
 
 Also, I cleaned up the code over the weekend adding basic training and detection features to the container.
 
-### Week 10 (08 - 14 August, 2021)
+### Week 10 + 2 days (08 - 16 August, 2021)
 
-There were some debugging I had to do on the Container. Also, I wrote the pages[tl;dr](tldr.md) and [How to Use](how-to-use.md). All information on my work can be found there. Finally, I am writing a page in the techne public site to publish the dataset on Red Hen Lab.
+There were some debugging I had to do on the Container. Also, I wrote the pages [tl;dr](tldr.md) and [How to Use](how-to-use.md). All information on my work can be found there. Finally, I am wrote a page in the techne public site to publish the dataset on Red Hen Lab. And all final code debugging and testing were performed.

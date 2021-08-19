@@ -24,6 +24,18 @@ The following parameters have default values:
 
 The Singularity Container contains code for training and testing on gestures videos. 
 
+### Prerequisites
+
+The following commands are pre-requisite before performing any operation on the container. Run them on the HPC:
+```
+module load singularity
+module load cuda/10.1
+srun -p gpu --gpus 1 --mem 4000 --cpus-per-gpu 2 --pty bash
+module load gcc
+module load tensorrt/6
+```
+
+
 ### Commands
 
 I will talk about run commands only, since run is used for utilizing Singularity containers.
