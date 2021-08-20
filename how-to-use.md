@@ -80,3 +80,22 @@ To automatically select the default model in the container, retrain it and save 
 ```
 
 Otherwise, use the model path to retrain a specific model as used in detection.
+
+### Output Files
+
+In the output directory, you will find a number of files that were created while running the gestures container.
+
+filename -> input video filename
+
+Folder:
+1. filename_json : OpenPose keypoints output
+
+Files:
+1. filename.mp4 : OpenPose output video
+2. filename_output.mp4 : Gesture labelled OpenPose output
+3. filename_audio.mp3 : Audio file of the video
+4. filename_info.json : Video and audio information as reported by FFprobe
+5. filename_keypoints_w{n1}_p{n2}_r{n3}.json : Keypoints parsed by the code from the filename_json folder. n1, n2, n3 are the parameter values.
+6. filename_npy-detect_w{n1}_p{n2}_r{n3}.npy : Keypoints parsed into numpy files for detection data. Only present if run with detect.
+7. filename_npy-train_w{n1}_p{n2}_r{n3}.npy : Keypoints parsed into numpy files for training data. Only present if run with train.
+8. filename_preds-df_w{n1}_p{n2}_r{n3}.csv : Output file marking frames and gestures detection result. Every row contains frame number and if that frame in the video contains a gesture or not.
